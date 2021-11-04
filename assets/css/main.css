@@ -163,7 +163,7 @@ input, select, textarea {
     }
 
     strong, b {
-        font-weight: 300;
+        font-weight: 500;
         color: #666;
     }
 
@@ -212,6 +212,10 @@ input, select, textarea {
 
     p, ul, ol, dl, table {
         margin-bottom: 2em;
+    }
+    
+    li ul {
+        margin-bottom: 0;
     }
 
     br.clear {
