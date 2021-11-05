@@ -8,7 +8,7 @@
 
 <head>
     <title>Luke Eyles - Portfolio</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -212,9 +212,38 @@
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
                                     <h2>Turtlebot Finding Cereal</h2>
-                                        <p>
-                                            aldfka;ldfk;asdjf
-                                        </p>
+                                    <div class="fifty">
+                                        <div class="youtube">
+                                            <iframe src="https://www.youtube.com/embed/A1gqXOL6JHQ" frameborder="0"
+                                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div>
+                                            <p>
+                                                For the major project in the subject Sensors and Control, I worked in a
+                                                team with two others to program a Turtlebot to scan for cereal boxes,
+                                                recognise the chosen box, and go the box by driving along its normal
+                                                vector. My leadership skills were demonstrated in this project, as I
+                                                worked early in the project to draw up an outline of the code structure
+                                                and divide the work among the team. This ensured the success of the
+                                                project as everyone was on the same page early in the project, and
+                                                everyone had a specific part of the project that they were responsible
+                                                for.
+                                            </p>
+                                            <p>
+                                                Matlab was used with ROS to program the system, so that the image
+                                                processing toolbox and built-in matrix operations could be used. An RGBD
+                                                camera mounted on top of the Turtlebot was used with the SURF feature
+                                                detection algorithm to extract features from the images. These features
+                                                were then compared against reference images using RANSAC, and if the
+                                                right cereal box was in the image, it would be found. The marker’s
+                                                location in the image was then transformed to a 3D location using the
+                                                pinhole camera model. Then, the robot drives the shortest distance to
+                                                the normal of the cereal box and turns to drive towards the box.
+
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </article>
@@ -293,8 +322,10 @@
                         timers.</li>
                     <li><b>CAD</b>:
                         <ul>
-                            <li><b>Solidworks</b>: Designing parts, performing FEA, creating assemblies and technical drawings.</li>
-                            <li><b>Blender</b>: Creating meshes, using modifiers, applying procedural and image based textures.</li>
+                            <li><b>Solidworks</b>: Designing parts, performing FEA, creating assemblies and technical
+                                drawings.</li>
+                            <li><b>Blender</b>: Creating meshes, using modifiers, applying procedural and image based
+                                textures.</li>
                         </ul>
                     </li>
                     <li><b>Engineering workshops</b></li>
