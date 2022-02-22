@@ -2101,7 +2101,7 @@ input[type=radio] + label:before {
   display: block;
 }
 .image.left, .image.right {
-  max-width: 40%;
+  max-width: 30%;
 }
 .image.left img, .image.right img {
   width: 100%;
@@ -2626,6 +2626,7 @@ table.alt tfoot {
   padding: 5em 5em 3em 5em;
   max-width: 100%;
   width: 65em;
+  display: inline-block;
 }
 @media screen and (max-width: 1680px) {
   .wrapper > .inner {
