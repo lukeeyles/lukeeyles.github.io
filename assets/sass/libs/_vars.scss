@@ -1,22 +1,51 @@
 // Misc.
 	$misc: (
-		z-index-base:	10000
+		z-index-base:		10000,
+		max-features:		20,
+		max-sidebar-links:	20
 	);
 
 // Duration.
 	$duration: (
-		header: 0.5s
+		transition:			0.2s,
+		activation:			1s
 	);
 
 // Size.
 	$size: (
-		header: 275px
+		border-radius:		0.25em,
+		border-width:		1px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		sidebar-width:		18em,
+		sidebar-height:		3.5em,	// when <=large is active
+		inner-width:		75em
 	);
 
 // Font.
 	$font: (
+		family:				('Dosis', sans-serif),
+		family-fixed:		('Consolas', monospace),
+		weight:				normal,
+		weight-bold:		bold,
+		kerning-alt:		0.25em
 	);
 
 // Palette.
 	$palette: (
+		bg:					#082136,
+		bg-alt:				darken(#082136, 5),
+		fg:					rgba(255,255,255,0.70),
+		fg-bold:			rgba(255,255,255,0.90),
+		fg-light:			rgba(255,255,255,0.35),
+		border:				rgba(255,255,255,0.15),
+		border-bg:			rgba(255,255,255,0.05),
+		accent1:			#175080,
+		accent1-alt:		darken(#175080, 10),
+		accent2:			#0f395c,
+		accent2-alt:		darken(#0f395c, 10),
+		accent3:			#176294,
+		accent3-alt:		darken(#176294, 10),
+        accent4:			#eee024,
+		accent4-alt:	    #f17e13
 	);
