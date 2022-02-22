@@ -44,6 +44,14 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
+
+                <!-- Intro -->
+					<section id="intro" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h1>My Projects</h1>
+							<p>These are some of the projects I've worked on as part of my degree.</p>
+						</div>
+					</section>
                 	
                 <!-- Tic-Tac-Toe Bot -->
                     <section id="tic-tac-toe-bot" class="wrapper style1 fade-up">
@@ -91,6 +99,13 @@
                         <div class="iframe-container">
                             <iframe width="700" height="394" src="https://www.youtube.com/embed/A1gqXOL6JHQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
+                        <p>
+                            <br>
+                            For the major project in the subject Sensors and Control, I worked in a team with two others to program a TurtleBot to scan for cereal boxes, recognise the chosen box, and go the box by driving along its normal vector. My leadership skills were demonstrated in this project, as I worked early in the project to draw up an outline of the code structure and divide the work among the team. This ensured the success of the project as everyone was on the same page early in the project, and everyone had a specific part of the project that they were responsible for.
+                        </p>
+                        <p>
+                            Matlab was used with ROS to program the system, so that the image processing toolbox and built-in matrix operations could be used. An RGBD camera mounted on top of the TurtleBot was used with the SURF feature detection algorithm to extract features from the images. These features were then compared against reference images using RANSAC, and if the right cereal box was in the image, it would be found. The marker’s location in the image was then transformed to a 3D location using the pinhole camera model. Then, the robot drives the shortest distance to the normal of the cereal box and turns to drive towards the box.
+                        </p>
                     </div>
                 </section>
 
