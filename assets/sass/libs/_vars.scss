@@ -24,9 +24,10 @@
 
 // Font.
 	$font: (
-		family:				('Dosis', sans-serif),
+		family:				('Chivo', sans-serif),
+        family-header:		('Chivo', sans-serif),
 		family-fixed:		('Consolas', monospace),
-		weight:				normal,
+		weight:				300,
 		weight-bold:		bold,
 		kerning-alt:		0.25em
 	);
@@ -35,8 +36,8 @@
 	$palette: (
 		bg:					#082136,
 		bg-alt:				darken(#082136, 5),
-		fg:					rgba(255,255,255,0.70),
-		fg-bold:			rgba(255,255,255,0.90),
+		fg:					rgba(255,255,255,0.85),
+		fg-bold:			rgba(255,255,255,1.00),
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
