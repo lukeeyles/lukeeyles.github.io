@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Luke Eyles - Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+                            <li><a href="#tic-tac-toe-bot">Tic-Tac-Toe Bot</a></li>
+							<li><a href="#wall-building">Wall Building Robots</a></li>
+							<li><a href="#aircraft-interceptor">Aircraft Interceptor</a></li>
+							<li><a href="#turtlebot">TurtleBot Finding Cereal</a></li>
+                            <li><a href="#arduino-security">Arduino Security System</a></li>
+                            <li><a href="#warman-challenge">Warman Challenge</a></li>
+                            <li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+                	
+                <!-- Tic-Tac-Toe Bot -->
+                    <section id="tic-tac-toe-bot" class="wrapper style1 fade-up">
+                        <div class="inner">
+                            <h2>Tic-Tac-Toe Bot</h2>
+                            <iframe width="700" height="394" src="https://www.youtube.com/embed/gn4-HONhFDk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<p>
+                                <br>
+                                For my major project in the univeristy subject Robotics, I worked in a team with two others to program a Dobot Magician to play Tic Tac Toe using Matlab with Peter Corke’s Robotics Toolbox. We used a webcam to detect when the player had finished their turn and where they had placed their tile. Then, the robot would use a custom inverse kinematics function to pick up and place its own tile, trying to beat the player. We also created a GUI to enable easy operation of the robot, including starting and stopping the game, jogging the end effector of the robot in cartesian coordinates, or moving individual joints.
+                            </p>
+                        </div>
+                    </section>
+
+                <!-- Wall Building Robots -->
+                <section id="wall-building" class="wrapper style3 fade-up">
+                    <div class="inner">
+                        <h2>Wall Building Robots</h2>
+                        <iframe width="700" height="365" src="https://www.youtube.com/embed/EQaXkzF0dYk" title="YouTube video player" mute="1"; frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>
+                            <br>
+                            As part of the university subject Robotics, I programmed a simulated UR3 and UR5 robot to work together to build a wall in Matlab, using Peter Corke’s Robotics Toolbox. I used inverse kinematics to find waypoints for the robots to pick up and place the bricks, and quintic polynomial trajectory planning to smoothly interpolate between these waypoints. To increase efficiency, the robots picked up the bricks at the same time, and then took turns placing the bricks to avoid collisions.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Simulated Aircraft Interceptor -->
+                <section id="aircraft-interceptor" class="wrapper style2 fade-up">
+                    <div class="inner">
+                        <h2>Simulated Aircraft Interceptor</h2>
+                        <p>
+                            Using ROS with C++, I programmed a simulated aircraft to predict the trajectory of enemy aircraft and intercept them.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- TurtleBot Finding Cereal -->
+                <section id="turtlebot" class="wrapper style1 fade-up">
+                    <div class="inner">
+                        <h2>TurtleBot Finding Cereal</h2>
+                        <iframe width="700" height="394" src="https://www.youtube.com/embed/A1gqXOL6JHQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <!-- Arduino Security System -->
+                <section id="arduino-security" class="wrapper style3 fade-up">
+                    <div class="inner">
+                        <h2>Arduino Security System</h2>
+                        <p>
+                            I programmed an Arduino security system that used a distance sensor mounted to a stepper motor to scan the room and detect any changes, as part of the university subject Mechatronics 2. An LCD shield was used to operate the system. The features of the system include password protection to access the menus, an environment calibration mode to set the reference data for the room, a security mode to detect any changes in the room which could operate on a timer, and a mapping mode which would convert the distance information to a 2D map of the room and print it out over serial.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Warman Challenge 2019 -->
+                <section id="warman-challenge" class="wrapper style2 fade-up">
+                    <div class="inner">
+                        <h2>Warman Challenge 2019</h2>
+                    </div>
+                </section>
+
+				<!-- Contact -->
+					<section id="contact" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>To contact me, please email me at <a href="mailto:lukebeyles@gmail.com">lukebeyles@gmail.com</a>, or connect with me on LinkedIn at <a href="linkedin.com/in/luke-eyles">linkedin.com/in/luke-eyles</a>.</p>
+                            <ul class="actions">
+                                <li><a href="Luke-Eyles-Resume.pdf" class="button">Download my resume</a></li>
+                            </ul>
+                        </div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Luke Eyles 2022. All rights reserved.</li><li>Design: Adapted from <a href="https://html5up.net/hyperspace">HTML5 UP Hyperspace</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
