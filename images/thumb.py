@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-path = "images/origami/"
+path = "images/blender/"
 fns = os.listdir(path)
 
 for fn in fns:
