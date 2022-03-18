@@ -31,10 +31,10 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
                             <li><a href="#tic-tac-toe-bot">Tic-Tac-Toe Bot</a></li>
-							<li><a href="#wall-building">Wall Building Robots</a></li>
+                            <li><a href="#turtlebot">TurtleBot Finding Cereal</a></li>
+							<!-- <li><a href="#wall-building">Wall Building Robots</a></li> -->
 							<li><a href="#aircraft-interceptor">Aircraft Interceptor</a></li>
-							<li><a href="#turtlebot">TurtleBot Finding Cereal</a></li>
-                            <li><a href="#arduino-security">Arduino Security System</a></li>
+                            <!-- <li><a href="#arduino-security">Arduino Security System</a></li> -->
                             <li><a href="#warman-challenge">Warman Competition</a></li>
                             <li><a href="#contact">Contact</a></li>
 						</ul>
@@ -57,29 +57,61 @@
                     <section id="tic-tac-toe-bot" class="wrapper style1 fade-up">
                         <div class="inner">
                             <h2>Tic-Tac-Toe Bot</h2>
-                            <div class="iframe-container">
-                                <iframe width="700" height="394" src="https://www.youtube.com/embed/gn4-HONhFDk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="row gtr-uniform">
+                                <div class="col-6">
+                                <p>
+                                    For my major project in the university subject Robotics, I led a team with two others to successfully program a DOBOT Magician to play Tic-Tac-Toe. This project was complex, and utilised my problem solving skills to integrate many different components, including the inverse kinematics of the robots, program logic, and image processing to detect how the player had moved. 
+                                </p>
+                                <p>
+                                    This project was a huge learning experience, as I had never worked with a physical robot before, and had to deal with physical limitations such as joint limits and positioning error. My team also pushed outside of the scope of the subject by including image processing, which required investigating MATLAB’s image processing capabilities and learning how to implement the best option.
+                                </p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="iframe-container">
+                                        <iframe width="700" height="394" src="https://www.youtube.com/embed/gn4-HONhFDk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
-							<p>
-                                <br>
-                                For my major project in the university subject Robotics, I worked in a team with two others to program a Dobot Magician to play Tic Tac Toe using Matlab with Peter Corke’s Robotics Toolbox. We used a webcam to detect when the player had finished their turn and where they had placed their tile. Then, the robot would use a custom inverse kinematics function to pick up and place its own tile, trying to beat the player. We also created a GUI to enable easy operation of the robot, including starting and stopping the game, jogging the end effector of the robot in cartesian coordinates, or moving individual joints.
-                            </p>
                         </div>
                     </section>
 
-                <!-- Wall Building Robots -->
+                    <!-- TurtleBot Finding Cereal -->
+                    <section id="turtlebot" class="wrapper style3 fade-up">
+                        <div class="inner">
+                            <h2>TurtleBot Finding Cereal</h2>
+                            <div class="row gtr-uniform">
+                                <div class="col-6">
+                                    <p>
+                                        For the major project in the subject Sensors and Control, I successfully led a team with two others to program a TurtleBot to look for cereal boxes, recognise the chosen box, and drive along the normal vector of the box. My leadership skills were demonstrated in this project, as I worked early on to plan the code structure and divide the work among the team. This ensured the success of the project as everyone was on the same page from the beginning, and everyone had a specific part of the project that they were responsible for.
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="iframe-container">
+                                        <iframe width="700" height="394" src="https://www.youtube.com/embed/A1gqXOL6JHQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                <!-- Wall Building Robots
                 <section id="wall-building" class="wrapper style3 fade-up">
                     <div class="inner">
                         <h2>Wall Building Robots</h2>
-                        <div class="iframe-container">
-                            <iframe width="700" height="365" src="https://www.youtube.com/embed/EQaXkzF0dYk" title="YouTube video player" mute="1"; frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="row gtr-uniform">
+                            <div class="col-6">
+                                <div class="iframe-container">
+                                    <iframe width="700" height="365" src="https://www.youtube.com/embed/EQaXkzF0dYk" title="YouTube video player" mute="1"; frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                            <p>
+                                As part of the university subject Robotics, I programmed a simulated UR3 and UR5 robot to work together to build a wall in Matlab, using Peter Corke’s Robotics Toolbox. I used inverse kinematics to find waypoints for the robots to pick up and place the bricks, and quintic polynomial trajectory planning to smoothly interpolate between these waypoints. To increase efficiency, the robots picked up the bricks at the same time, and then took turns placing the bricks to avoid collisions.
+                            </p>
+                            </div>
                         </div>
-                        <p>
-                            <br>
-                            As part of the university subject Robotics, I programmed a simulated UR3 and UR5 robot to work together to build a wall in Matlab, using Peter Corke’s Robotics Toolbox. I used inverse kinematics to find waypoints for the robots to pick up and place the bricks, and quintic polynomial trajectory planning to smoothly interpolate between these waypoints. To increase efficiency, the robots picked up the bricks at the same time, and then took turns placing the bricks to avoid collisions.
-                        </p>
                     </div>
-                </section>
+                </section> -->
 
                 <!-- Simulated Aircraft Interceptor -->
                 <section id="aircraft-interceptor" class="wrapper style2 fade-up">
@@ -87,29 +119,12 @@
                         <h2>Simulated Aircraft Interceptor</h2>
                         <p>
                             <span class="image right"><img src="images/aircraft-interceptor2.png" alt="" /></span>
-                            In the university subject Programming for Mechatronic Systems, one project was to use C++ with ROS to predict the trajectory of enemy aircraft and intercept them in a simulated airspace. This involved using threads to process incoming radar messages from ROS to determine where the closest enemy is. The program then predicted the time to intercept and extrapolated the enemies trajectory by that time, then generated control instructions in the form of a twist ROS message for the friendly aircraft to intercept.
+                            In Programming for Mechatronic Systems at university, a project I undertook was to use C++ with ROS to predict the trajectory of enemy aircraft and intercept them in a simulated 2D airspace. Bonus marks were awarded if more than 40 were intercepted within 5 minutes, and my program exceeded this by 50%, averaging over 60 intercepted. I did this by utilising my problem solving skills to develop an iterative prediction algorithm, where the system calculated an estimate of the time to intercept based on how far away the aircraft was, then extrapolated the aircraft’s position by that time and repeated the process until the value converged. 
                         </p>
                     </div>
                 </section>
 
-                <!-- TurtleBot Finding Cereal -->
-                <section id="turtlebot" class="wrapper style1 fade-up">
-                    <div class="inner">
-                        <h2>TurtleBot Finding Cereal</h2>
-                        <div class="iframe-container">
-                            <iframe width="700" height="394" src="https://www.youtube.com/embed/A1gqXOL6JHQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <p>
-                            <br>
-                            For the major project in the subject Sensors and Control, I worked in a team with two others to program a TurtleBot to scan for cereal boxes, recognise the chosen box, and go the box by driving along its normal vector. My leadership skills were demonstrated in this project, as I worked early in the project to draw up an outline of the code structure and divide the work among the team. This ensured the success of the project as everyone was on the same page early in the project, and everyone had a specific part of the project that they were responsible for.
-                        </p>
-                        <p>
-                            Matlab was used with ROS to program the system, so that the image processing toolbox and built-in matrix operations could be used. An RGBD camera mounted on top of the TurtleBot was used with the SURF feature detection algorithm to extract features from the images. These features were then compared against reference images using RANSAC, and if the right cereal box was in the image, it would be found. The marker’s location in the image was then transformed to a 3D location using the pinhole camera model. Then, the robot drives the shortest distance to the normal of the cereal box and turns to drive towards the box.
-                        </p>
-                    </div>
-                </section>
-
-                <!-- Arduino Security System -->
+                <!-- Arduino Security System
                 <section id="arduino-security" class="wrapper style3 fade-up">
                     <div class="inner">
                         <h2>Arduino Security System</h2>
@@ -118,10 +133,10 @@
                             I programmed an Arduino security system that used a distance sensor mounted to a stepper motor to scan the room and detect any changes, as part of the university subject Mechatronics 2. An LCD shield was used to operate the system. The features of the system include password protection to access the menus, an environment calibration mode to set the reference data for the room, a security mode to detect any changes in the room which could operate on a timer, and a mapping mode which would convert the distance information to a 2D map of the room and print it out over serial.
                         </p>
                     </div>
-                </section>
+                </section> -->
 
                 <!-- Warman Challenge 2019 -->
-                <section id="warman-challenge" class="wrapper style2 fade-up">
+                <section id="warman-challenge" class="wrapper style3 fade-up">
                     <div class="inner">
                         <h2>Warman Competition 2019</h2>
                             <span class="image right"><img src="images/warman-challenge.jpg" alt="" /></span>
@@ -130,7 +145,7 @@
                 </section>
 
 				<!-- Contact -->
-					<section id="contact" class="wrapper style3 fade-up">
+					<section id="contact" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<p>To contact me, please email me at <a href="mailto:lukebeyles@gmail.com">lukebeyles@gmail.com</a>, or connect with me on LinkedIn at <a href="https://www.linkedin.com/in/luke-eyles">linkedin.com/in/luke-eyles</a>.</p>
