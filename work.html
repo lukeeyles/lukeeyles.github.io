@@ -54,8 +54,8 @@
                         <div class="inner">
                             <h2>IMU Data Logger</h2>
                             <p>
-                                <span class="image right" style="max-width: 20%;"><img src="images/imu.png" alt="" /></span>
-                                In my work at Jenkins Engineering Defence Systems, I designed a system to autonomously record sensor data from an inertial measurement unit (IMU) to a single board computer using C++.
+                                <span class="image right" style="max-width: 25%;"><img src="images/imu.png" alt="" /></span>
+                                In my work at Jenkins Engineering Defence Systems, I designed a system to autonomously record sensor data from an inertial measurement unit (IMU) to a single board computer using C++. The system was required to be able to be left unmonitored for months at a time and be resilient to power outages. I fulfilled these requirements by setting the file system to read only at all times, unless I was writing sensor data, to minimise the risk of corruption should a power outage occur. To make the program start up automatically when the computer received power again, I created a custom service and ran experiments to confirm the system’s resilience to outages.
                             </p>
                         </div>
                     </section>
@@ -65,8 +65,11 @@
                         <div class="inner">
                             <h2>MATLAB Signal Processing and Generation Apps</h2>
                             <p>
-                                <span class="image left"><img src="images/signal-processing-thumbnail.jpg" alt="" /></span>
-                                While working at Jenkins Engineering Defence Systems, I developed MATLAB GUI apps to analyse radio signals, and generate custom signals to transmit by interfacing with software defined radios.
+                                <span class="image left" style="max-width: 35%;"><img src="images/signal-processing-thumbnail.jpg" alt="" /></span>
+                                While working at Jenkins Engineering Defence Systems, I developed a Signal Analyser MATLAB GUI app to analyse radio signals. Capabilities of this app included lowpass, highpass, and bandpass filtering, and many visualisation options including the demodulated signal, the frequency spectrum, and the spectrogram.
+                            </p>
+                            <p>
+                                I also created a Signal Generator MATLAB GUI app, which was capable of generating many different types of signal to transmit via a software defined radio. Through developing this app I learned the mathematics behind different signal modulation schemes, including frequency modulation, phase shift keying, and quadrature amplitude modulation.
                             </p>
                         </div>
                     </section>
