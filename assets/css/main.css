@@ -2748,9 +2748,11 @@ body.is-ie .wrapper.fullscreen {
 
 .iframe-container {
   overflow: hidden;
-  padding-top: 56.25%;
+  width: 70%;
+  padding-top: 39.375%;
   /* 16:9*/
   position: relative;
+  margin-bottom: 3%;
 }
 
 .iframe-container iframe {
