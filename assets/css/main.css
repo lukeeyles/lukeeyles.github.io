@@ -109,23 +109,23 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.85);
   font-family: "Chivo", sans-serif;
-  font-size: 16.5pt;
+  font-size: 14pt;
   font-weight: 300;
   line-height: 1.75;
 }
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
-    font-size: 13pt;
+    font-size: 12pt;
   }
 }
 @media screen and (max-width: 1280px) {
   body, input, select, textarea {
-    font-size: 12pt;
+    font-size: 11pt;
   }
 }
 @media screen and (max-width: 360px) {
   body, input, select, textarea {
-    font-size: 11pt;
+    font-size: 10pt;
   }
 }
 
@@ -215,11 +215,11 @@ h4 {
 }
 
 h5 {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 h6 {
-  font-size: 0.6em;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 736px) {
@@ -2494,7 +2494,7 @@ body.is-ie .spotlights > section {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  width: 40em;
+  width: 48em;
   -ms-flex: 1;
 }
 .spotlights > section > .content > .inner {
@@ -2626,7 +2626,7 @@ table.alt tfoot {
 .wrapper > .inner {
   padding: 5em 5em 4em 5em;
   max-width: 100%;
-  width: 65em;
+  width: 70em;
   display: inline-block;
 }
 @media screen and (max-width: 1680px) {
