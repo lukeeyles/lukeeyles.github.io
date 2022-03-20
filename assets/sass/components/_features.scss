@@ -15,16 +15,20 @@
 		margin: 0 0 _size(element-margin) 0;
 
 		section {
-			@include padding(3em, 3em, (0.5em, 0, 0, 4em));
-			width: 50%;
+			@include padding(1.5em, 1.5em, (0.5em, 0, 0, 4em)); // top, right/left, bottom
+			width: 33.33%;
 			border-top: solid 1px _palette(border);
 			position: relative;
 
-			&:nth-child(-n + 2) {
-				border-top-width: 0;
+			// &:nth-child(-n + 2) {
+			// 	border-top-width: 0;
+			// }
+
+			&:nth-child(3n) {
+				border-left: solid 1px _palette(border);
 			}
 
-			&:nth-child(2n) {
+            &:nth-child(3n+2) {
 				border-left: solid 1px _palette(border);
 			}
 
@@ -36,8 +40,8 @@
 				@include vendor('transition-delay', '1s');
 				@include vendor('transform', 'scale(1)');
 				position: absolute;
-				left: 3em;
-				top: 3em;
+				left: 1.5em;
+				top: 2.2em;
 				opacity: 1;
 			}
 
