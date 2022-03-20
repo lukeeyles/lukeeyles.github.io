@@ -58,7 +58,7 @@
         font-family: _font(family-header);
         font-weight: _font(weight-bold);
 		line-height: 1.5;
-		margin: (_size(element-margin)*1.5) 0 (_size(element-margin) * 0.25) 0;
+		margin: 0 0 (_size(element-margin) * 0.25) 0;
 
 		a {
 			color: inherit;
@@ -67,11 +67,12 @@
 	}
 
     h1, h2, h3 {
-        color: _pallete(fg-bold)
+        color: _pallete(fg-bold);
     }
 
     h4, h5, h6 {
 		color: _palette(fg);
+        margin: 1.5em 0 (_size(element-margin) * 0.25) 0;
 	}
 
 	h1 {
