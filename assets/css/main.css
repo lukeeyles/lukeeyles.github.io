@@ -2508,13 +2508,13 @@ body.is-ie .spotlights > section {
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1;
 }
-.spotlights > section:nth-child(2) {
+.spotlights > section:nth-child(1) {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .spotlights > section:nth-child(3) {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.spotlights > section:nth-child(5) {
+.spotlights > section:nth-child(4) {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .spotlights > section:nth-child(6) {
