@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Luke Eyles - Professional Projects</title>
+		<title>Luke Eyles - Professional Experience</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -30,8 +30,9 @@
 					<nav>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-                            <li><a href="#imu">IMU Data Logger</a></li>
+                            <li><a href="#techscans">Technology Scans</a></li>
                             <li><a href="#matlab">MATLAB GUI Apps</a></li>
+                            <li><a href="#imu">IMU Data Logger</a></li>
                             <li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -42,40 +43,82 @@
 			<div id="wrapper">
 
                 <!-- Intro -->
-					<section id="intro" class="wrapper style2 fade-up">
+					<section id="intro" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h1>My Professional Projects</h1>
-							<p>During my engineering internships, I've had the opportunity to work on these projects.</p>
+							<h1>Professional Experience</h1>
+							<p>
+                                During my current engineering internship as a <b>Technology Consulting Intern</b> at <b>Isle Utilities</b>, and my previous internship as a <b>Research and Development Intern</b> at <b>Jenkins Engineering Defence Systems</b>, I've had the opportunity to work on these projects.
+                            </p>
 						</div>
 					</section>
+
+                <!-- Tech Scans -->
+                <section id="techscans" class="wrapper style2 fade-up">
+                    <div class="inner">
+                        <h2>Technology Scans</h2>
+                        <p>
+                            <span class="image right" style="max-width: 35%;"><img src="images/tech-selection.png" alt="" /></span>
+                            While working at Isle Utilities, I have taken part in technology scans in a diverse range of areas including water efficiency, sludge treatment, smart irrigation, and resource recovery.
+                        </p>
+                        <h4>Achievements:</h4>
+                        <ul>
+                            <li>Effectively communicated with team to clarify the client’s requirements.</li>
+                            <li>Scoped over 300 technologies to be included in technology longlists, refined longlists to shortlists by selecting unique technology, and researched to find key information on each technology.</li>
+                            <li>Rated shortlisted technology by key factors to identify prospective trial opportunities.</li>
+                        </ul>
+                        <h4>Learnings:</h4>
+                        <ul>
+                            <li>Learnt the factors of viability, feasibility, and desirability that are used to build the business case when implementing a new technology.</li>
+                            <li>Exposure to many unfamiliar technologies and processes has developed my research skills, through learning how the technologies function.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Matlab -->
+                <section id="matlab" class="wrapper style1 fade-up">
+                    <div class="inner">
+                        <h2>MATLAB Signal Processing and Generation Apps</h2>
+                        <p>
+                            <span class="image right" style="max-width: 35%;"><img src="images/signal-processing-thumbnail.jpg" alt="" /></span>
+                            While working at Jenkins Engineering Defence Systems, I expanded the capabilities of their in-house Signal Analyser MATLAB GUI app. Capabilities I implemented included advanced filtering and visualisation, utilising MATLAB’s Signal Processing Toolbox.
+                        </p>
+                        <p>
+                            I also created a Signal Generator MATLAB GUI app, which could generate and overlay many different types of signal to transmit via a software defined radio.
+                        </p>
+                        <h4>Achievements:</h4>
+                        <ul>
+                            <li>Greatly expedited the process of generating and analysing signals for experimentation procedures.</li>
+                            <li>Facilitated generation of custom signals via an SDR, which enabled experimentation involving simulating radio waves received from multiple sources.</li>
+                        </ul>
+                        <h4>Learnings:</h4>
+                        <ul>
+                            <li>Improved my communication skills by discussing with my team to formulate project requirements.</li>
+                            <li>Developed my research skills by learning the mathematics behind different signal modulation schemes, including frequency modulation, phase shift keying, and quadrature amplitude modulation.</li>
+                        </ul>
+                    </div>
+                </section>
                 	
                 <!-- IMU -->
-                    <section id="imu" class="wrapper style1 fade-up">
+                    <section id="imu" class="wrapper style2 fade-up">
                         <div class="inner">
                             <h2>IMU Data Logger</h2>
                             <p>
-                                <span class="image right" style="max-width: 25%;"><img src="images/imu.png" alt="" /></span>
-                                In my work at Jenkins Engineering Defence Systems, I designed a system to autonomously record sensor data from an inertial measurement unit (IMU) to a single board computer using C++. The system was required to be able to be left unmonitored for months at a time and be resilient to power outages. I fulfilled these requirements by setting the file system to read only at all times, unless I was writing sensor data, to minimise the risk of corruption should a power outage occur. To make the program start up automatically when the computer received power again, I created a custom service and ran experiments to confirm the system’s resilience to outages.
+                                <span class="image right" style="max-width: 30%;"><img src="images/imu2.png" alt="" /></span>
+                                In my work at Jenkins Engineering Defence Systems, I designed a system to autonomously record sensor data from an inertial measurement unit (IMU) to a single board computer using C++. The system was required to be able to be left unmonitored for months at a time and be resilient to power outages. 
                             </p>
-                        </div>
-                    </section>
-
-                <!-- Matlab -->
-                    <section id="matlab" class="wrapper style3 fade-up">
-                        <div class="inner">
-                            <h2>MATLAB Signal Processing and Generation Apps</h2>
-                            <p>
-                                <span class="image left" style="max-width: 35%;"><img src="images/signal-processing-thumbnail.jpg" alt="" /></span>
-                                While working at Jenkins Engineering Defence Systems, I developed a Signal Analyser MATLAB GUI app to analyse radio signals. Capabilities of this app included lowpass, highpass, and bandpass filtering, and many visualisation options including the demodulated signal, the frequency spectrum, and the spectrogram.
-                            </p>
-                            <p>
-                                I also created a Signal Generator MATLAB GUI app, which was capable of generating many different types of signal to transmit via a software defined radio. Through developing this app I learned the mathematics behind different signal modulation schemes, including frequency modulation, phase shift keying, and quadrature amplitude modulation.
-                            </p>
+                            <h4>Achievements:</h4>
+                            <ul>
+                                <li>Fulfilled the long-term monitoring requirements by setting the file system to read only at all times, unless I was writing data, to minimise the risk of corruption should a power outage occur. Made the program start up automatically when power was available again by creating a custom service, and ran experiments to confirm the system’s resilience to outages.</li>
+                            </ul>
+                            <h4>Learnings:</h4>
+                            <ul>
+                                <li>Developed my independent learning skills by learning C++ and Linux, previously having minimal exposure to C.</li>
+                            </ul>
                         </div>
                     </section>
 
 				<!-- Contact -->
-					<section id="contact" class="wrapper style1 fade-up">
+					<section id="contact" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<p>To contact me, please email me at <a href="mailto:lukebeyles@gmail.com">luke.b.eyles@gmail.com</a>, or connect with me on LinkedIn at <a href="https://www.linkedin.com/in/luke-eyles">linkedin.com/in/luke-eyles</a>.</p>

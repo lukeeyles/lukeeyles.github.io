@@ -184,10 +184,10 @@ h1.major {
   padding-bottom: 0.35em;
 }
 h1.major:after {
-  background-image: -moz-linear-gradient(to right, #10486d, #0e3a5a);
-  background-image: -webkit-linear-gradient(to right, #10486d, #0e3a5a);
-  background-image: -ms-linear-gradient(to right, #10486d, #0e3a5a);
-  background-image: linear-gradient(to right, #10486d, #0e3a5a);
+  background-image: -moz-linear-gradient(to right, #10486d, #0c2d48);
+  background-image: -webkit-linear-gradient(to right, #10486d, #0c2d48);
+  background-image: -ms-linear-gradient(to right, #10486d, #0c2d48);
+  background-image: linear-gradient(to right, #10486d, #0c2d48);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -1989,7 +1989,7 @@ input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
   background: white;
   border-color: white;
-  color: #0e3a5a;
+  color: #0c2d48;
   content: "\f00c";
 }
 input[type=checkbox]:focus + label:before,
@@ -2077,16 +2077,16 @@ input[type=radio] + label:before {
   color: #092b41;
 }
 .wrapper.style2 .icon.major:before {
-  color: #0c2d48;
-}
-.wrapper.style2-alt .icon.major:before {
-  color: #05121c;
-}
-.wrapper.style3 .icon.major:before {
   color: #0e3a5a;
 }
-.wrapper.style3-alt .icon.major:before {
+.wrapper.style2-alt .icon.major:before {
   color: #071e2e;
+}
+.wrapper.style3 .icon.major:before {
+  color: #0c2d48;
+}
+.wrapper.style3-alt .icon.major:before {
+  color: #05121c;
 }
 
 /* Image */
@@ -2653,16 +2653,16 @@ table.alt tfoot {
   background-color: #092b41;
 }
 .wrapper.style2 {
-  background-color: #0c2d48;
-}
-.wrapper.style2-alt {
-  background-color: #05121c;
-}
-.wrapper.style3 {
   background-color: #0e3a5a;
 }
-.wrapper.style3-alt {
+.wrapper.style2-alt {
   background-color: #071e2e;
+}
+.wrapper.style3 {
+  background-color: #0c2d48;
+}
+.wrapper.style3-alt {
+  background-color: #05121c;
 }
 .wrapper.fullscreen {
   display: -moz-flex;
@@ -3180,7 +3180,7 @@ body.is-preload #sidebar nav ul li {
   }
   #sidebar nav a:after {
     background-image: none;
-    background-color: #0e3a5a;
+    background-color: #0c2d48;
   }
 }
 @media screen and (max-width: 736px) {
