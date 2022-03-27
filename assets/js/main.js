@@ -24,11 +24,29 @@
 			$body.addClass('is-ie');
 
 	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+        // wait until page load or chivo font has download
+
+        let animationsStarted =false;
+        function startAnimations() {
+            if(animationsStarted) return;
+            animationsStarted = true;
+            $body.removeClass('is-preload');
+        }
+
+        if(document.fonts) {
+            Promise.all(
+                [...document.fonts].filter(x => x.family == 'Chivo' && x.style == 'normal')
+                .map(x => x.load())
+            ).then(() => {
+                console.log('chivo loaded');
+                startAnimations();
+            })
+        }
+
+		$window.on('load', () => {
+            console.log('load event');
+            startAnimations();
+        });
 
 	// Forms.
 
