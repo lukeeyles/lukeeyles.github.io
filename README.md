@@ -1,2 +1,3 @@
-[Github Pages](lukeeyles.github.io)
+[Github Pages](https://lukeeyles.github.io)
+
 [Website](https://luke.eyles.au/)
