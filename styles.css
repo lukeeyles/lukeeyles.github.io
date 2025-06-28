@@ -1,0 +1,17 @@
+body {
+    background-color: #1e1e1e;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #dadada;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #dadada;
+}
